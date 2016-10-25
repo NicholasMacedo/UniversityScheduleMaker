@@ -11,6 +11,7 @@ This project is a website that I created to help me visualize my university sche
 - To create an item on the schedule, the user will have to fill out the form after clicking the main "Add" button.
 - Once the user has filled out the form following the criteria below, the item will be added and the add modal window will close.
 - Once the modal window is closed, the user should notice that the item has been added to the schedule.
+
 ### Required Item Fields
 - Title
 - Course Day(s) (At Least One)
