@@ -19,13 +19,11 @@ This project is a website that I created to help me visualize my university sche
 
 ### Optional Item Fields
 - Colour (Picked by clicking the colour square and selecting the colour of choice.)
+  - The colour selected for the course will be applied to the lab if selected.
 - Instructor Name
 - Location
 - Lab Checkbox (Only present on the initial course item.)
-
-**/!\ Note:**
-- The colour selected for the course will be applied to the lab if selected.
-- The Lab Checkbox will bring up the lab details below which have similar rules to the course details.
+  - The Lab Checkbox will bring up the lab details below which have similar rules to the course details.
 
 ### Time Fields
 Time fields must follow these criteria in order to be accepted by the program:
