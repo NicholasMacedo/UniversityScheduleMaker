@@ -9,6 +9,8 @@ This project is a website that I created to help me visualize my university sche
 
 ## Add
 ### Use
+- To create an item on the schedule, the user will have to fill out the form after clicking the main "Add" button.
+- Once the user has filled out the form following the criteria below, the item will be added and the add modal window will close.
 #### Required Item Fields
 - Title
 - Course Day(s) (At Least One)
@@ -27,9 +29,6 @@ Time fields must follow these criteria in order to be accepted:
 - Start time must be no earlier than 8AM.
 - End time must be no later than 10PM.
 - Item muse be longer than 30 minutes in length.
-
-### Restrictions
-- Schedule Item must be no shorter than 45 mins. 
 
 ## Edit / Delete
 
