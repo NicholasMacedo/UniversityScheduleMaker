@@ -15,6 +15,7 @@ This project is a website that I created to help me visualize my university sche
 - Title
 - Course Day(s) (At Least One)
 - Start & End Time (Hours, Mins)
+
 ### Optional Item Fields
 - Item Colour
 - Item Instructor Name
