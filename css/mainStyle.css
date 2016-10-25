@@ -66,6 +66,12 @@ h3 {
 	background-color: #eee6e3;
 }
 
+.schedule-sheet-item h2 {
+  color: black;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
 /**************** 
  Add Course Page
 ****************/
