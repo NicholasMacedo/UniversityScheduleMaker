@@ -22,7 +22,8 @@ This project is a website that I created to help me visualize my university sche
 - Instructor Name
 - Location
 - Lab Checkbox (Only present on the initial course item.)
-*/!\ Note:*
+
+**/!\ Note:**
 - The colour selected for the course will be applied to the lab if selected.
 - The Lab Checkbox will bring up the lab details below which have similar rules to the course details.
 
