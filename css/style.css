@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.topBar {
+  height: 500px;
+  background-color:#EEE;
+}
+
+
+.schedule-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  margin: 0em 2em;
+}
+.schedule-container > .schedule-time {
+  position: relative;
+  width: 300px;
+  background: #EEE;
+  box-shadow: 0 5px 5px #000;
+}
+.schedule-container > .schedule-time > div {
+  position: absolute;
+  margin-top: -12px;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  text-align: center;
+}
+.schedule-container .schedule-time > div:nth-child(1) { /*8AM*/
+  top: 6.6666667%;
+}
+.schedule-container .schedule-time > div:nth-child(2) { /*9AM*/
+  top: 13.3333334%;
+}
+.schedule-container .schedule-time > div:nth-child(3) { /*10AM*/
+  top: 20%;
+}
+.schedule-container .schedule-time > div:nth-child(4) { /*11AM*/
+  top: 26.6666667%;
+}
+.schedule-container .schedule-time > div:nth-child(5) { /*12PM*/
+  top: 33.3333334%;
+}
+.schedule-container .schedule-time > div:nth-child(6) { /*1PM*/
+  top: 40%;
+}
+.schedule-container .schedule-time > div:nth-child(7) { /*2PM*/
+  top: 46.6666667%;
+}
+.schedule-container .schedule-time > div:nth-child(8) { /*3PM*/
+  top: 53.3333334%;
+}
+.schedule-container .schedule-time > div:nth-child(9) { /*4PM*/
+  top: 60%;
+}
+.schedule-container .schedule-time > div:nth-child(10) { /*5PM*/
+  top: 66.6666667%;
+}
+.schedule-container .schedule-time > div:nth-child(11) { /*6PM*/
+  top: 73.3333334%;
+}
+.schedule-container .schedule-time > div:nth-child(12) { /*7PM*/
+  top: 80%;
+}
+.schedule-container .schedule-time > div:nth-child(13) { /*8PM*/
+  top: 86.6666667%;
+}
+.schedule-container .schedule-time > div:nth-child(14) { /*9PM*/
+  top: 93.3333334%;
+}
+.schedule-container .schedule-time > div:nth-child(15) { /*10PM*/
+  top: 100%;
+}
+
+
+
+.schedule-container > .schedule-sheet {
+  position: relative;
+  padding: 5px;
+  width: calc(100% - 100px);
+  background: #CCC;
+    border-left: solid 1px #09171c;
+}
+.schedule-container > .schedule-sheet > .schedule-sheet-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 10px;
+  padding: 10px;
+  width: calc(100% - 20px);
+  text-align: center;
+}

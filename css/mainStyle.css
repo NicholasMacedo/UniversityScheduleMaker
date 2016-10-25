@@ -1,0 +1,208 @@
+html body {
+	font-size: 16px;
+	background-color: #09171c;
+}
+
+h1 {
+	color: #eee6e3;
+	font-size: 6em;
+	font-family: Helvetica;
+	margin: 0.25em 0.5em;
+	text-align: center;
+}
+
+h2 {
+  color: #eee6e3;
+  font-size: 2em;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h3 {
+  color: #eee6e3;
+  font-size: 1em;
+  font-family: Helvetica;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/********** 
+ Main Page
+**********/
+.allButtons {
+    text-align: center;
+}
+
+.actionButtons {
+    margin: 0 1em 1em 1em;
+    background-color: #eee6e3;
+    height: 4em;
+    width: 12em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.actionButtons:hover {
+    background-color: #09171c;
+    color: #eee6e3;
+    border: solid 3px #eee6e3;
+}
+.actionButtons p {
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+.actionButtons span {
+  font-size: 2em;
+}
+
+.calendarSpot {
+	width: 100vw;
+	background-color: #eee6e3;
+}
+
+/**************** 
+ Add Course Page
+****************/
+
+#addPanel {
+  background-color: #09171c;
+  border: solid 3px #eee6e3;
+  color: #eee6e3;
+  border-radius: 30px;
+  padding: 0 30px;
+  min-height: 420px;
+  width: 640px;
+}
+
+.allBoxes, #title, #startTime, #endTime {
+    text-align: center;
+}
+
+#colourPicker {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#colourPicker input{
+  width: 30px;
+  cursor:pointer;
+}
+
+#courseTitle {
+  width: 50%;
+}
+
+#instructor, #location {
+    width: 40%;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#startTime, #endTime {
+    text-align: center;
+    display: inline-block;
+}
+
+.meridiem {
+    margin-left: 5px;
+}
+
+#endTime h3 {
+  margin-right: 10px; 
+}
+
+#labform h2 {
+  margin-top: 0px;
+}
+
+input:not([type="checkbox"]), select {
+    height: 34px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    display: inline-block;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.addCourseButtonBox {
+ text-align: center;
+}
+
+.addCourseButton {
+    margin: 0 1em 1em 1em;
+    background-color: #51a951;
+    color: white;
+    height: 4em;
+    width: 12em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.addCourseButton:hover {
+    background-color: #09171c;
+    color: #51a951;
+    border: solid 3px #51a951;
+}
+.addCourseButton p {
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+#courseErrorMessages, #labErrorMessages {
+  text-align: center;
+  color: #ff5050;
+  margin: 20px 20px;
+}
+
+
+/******************
+ Edit Courses Page
+******************/
+#editPanel {
+  background-color: blue;
+  height: 420px;
+  width: 640px;
+  max-width: 90vw;
+}
+
+/******************** 
+ Delete Courses Page
+********************/
+#deletePanel {
+  background-color: yellow;
+  height: 420px;
+  width: 640px;
+  max-width: 90vw;
+}
+
+/******************** 
+ Export Courses Page
+********************/
+#exportPanel {
+  background-color: green;
+  height: 420px;
+  width: 640px;
+  max-width: 90vw;
+}
